@@ -191,7 +191,7 @@ addThis:
 
 sharejs:
   enable: true
-  disabled_sites: diandian
+  disabled_sites: diandian,douban,tencent,linkedin
 
 # Comments System
 # ---------------
