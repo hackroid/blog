@@ -81,3 +81,9 @@ theme: melody
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true

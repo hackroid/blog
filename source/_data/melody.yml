@@ -23,7 +23,7 @@ menu:
 
 # Favicon
 # ---------------
-favicon: /melody-favicon.ico
+favicon: /hacrkoid.png
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -41,7 +41,7 @@ pwa:
 
 # Highlight theme
 # ---------------
-highlight_theme: default
+highlight_theme: light
 
 # code_word_wrap: true or false
 
@@ -49,9 +49,13 @@ highlight_theme: default
 # see the icon_name in fontawesome website.
 # And you need to add the `fa` or `fab` prefix by your self.
 # ---------------
-#social:
-#icon_name fa: url
-#icon_name fab: url
+social:
+  github fab: https://github.com/hackroid
+  telegram fab: https://t.me/hackro1d
+  facebook-square fab: https://www.facebook.com/Hackro1d
+  twitter-square fab: https://twitter.com/Hackro1d
+  weibo fab: https://www.weibo.com/u/3421075194
+  envelope fas: mailto:ooozbh@gmail.com
 
 # Algolia search
 # ---------------
@@ -64,7 +68,10 @@ algolia_search:
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/third-party-support?id=local-search
 # ---------------
 local_search:
-  enable: false
+  enable: true
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
 
 # MathJax
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/third-party-support?id=mathjax
@@ -82,7 +89,7 @@ katex:
 
 # Toggle fireworks (IE >= 10)
 # ---------------
-fireworks: false
+fireworks: true
 
 # Analysis
 # ---------------
@@ -114,7 +121,7 @@ scripts:
 cdn:
   css:
     fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
-    # fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
+    fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
   js:
     anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
     jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
@@ -124,9 +131,9 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar:
+avatar: https://i.loli.net/2019/04/05/5ca72d9fdb4ec.png
 
-top_img: true # false or url of img
+top_img: https://i.loli.net/2019/04/05/5ca72d36af6f1.jpg # false or url of img
 
 post_meta:
   date_type: created # created or updated
@@ -135,7 +142,7 @@ post_meta:
 
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/additional-package-support?id=word-counting
 wordcount:
-  enable: false
+  enable: true
 
 toc:
   enable: true
@@ -182,9 +189,9 @@ addThis:
   enable: false
   #pubid:
 
-# sharejs:
-# enable: false
-# disabled_sites:
+sharejs:
+  enable: true
+  disabled_sites: diandian
 
 # Comments System
 # ---------------
@@ -227,7 +234,7 @@ disqus:
 
 # Footer Settings
 # ---------------
-since: 2013
+since: 2017
 
 # footer_custom_text:
 
@@ -254,9 +261,12 @@ busuanzi:
 
 # Sidebar Settings
 # ---------------
-#links_title: Links
-#links:
-#Name: url
+links_title: Links
+links:
+  sustech-icu: https://sustech.icu
+  sustech-wtf: https://sustech.wtf
+  hguandl: https://hguandl.com/
+
 
 # Follow Me Button
 # follow:
