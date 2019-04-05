@@ -265,14 +265,18 @@ links_title: Links
 links:
   sustech-icu: https://sustech.icu
   sustech-wtf: https://sustech.wtf
+  网绿: https://blog.lwrless.xyz/
+  pluskid: http://freemind.pluskid.org/
   hguandl: https://hguandl.com/
-
+  scottyi: https://scottyi.club/
+  shiloh: http://shiloh.me/
 
 # Follow Me Button
-# follow:
-#   enable: true
-#   url: ''
-#   text: ''
+# ---------------
+follow:
+  enable: true
+  url: 'https://github.com/hackroid'
+  text: 'Fo我啊:)'
 
 # Ads
 # ---------------
