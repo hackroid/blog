@@ -1,7 +1,7 @@
 ---
 title: Hackroid又回来了。
 date: 2019-04-06 03:06:40
-tags: [diary, life，emotion]
+tags: [diary, life, emotion]
 ---
 
 > 没想到居然会以一个相同的缘由开始写博客，现在又回到博客，我到底是在争个什么呢？
