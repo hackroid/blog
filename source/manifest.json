@@ -3,7 +3,7 @@
     "short_name": "Hackroid",
     "theme_color": "##69b208",
     "background_color": "##69b208",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
     "icons": [
