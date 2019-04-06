@@ -110,8 +110,8 @@ feed:
   limit: false
   hub:
   content:
-  content_limit: 140
-  content_limit_delim: ' '
+  content_limit:
+  content_limit_delim:
   order_by: -date
   icon: images/pwaicons/384_favicon_trans.png
 
