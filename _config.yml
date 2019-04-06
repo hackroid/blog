@@ -103,6 +103,18 @@ offline:
       options:
         origin: https://blog.hackroid.com # can be replaced with your url
 
+# generate rss
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: images/pwaicons/384_favicon_trans.png
+
 # generate sitemap
 sitemap:
   path: sitemap.xml
