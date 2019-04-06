@@ -87,3 +87,10 @@ search:
   path: search.xml
   field: post
   content: true
+
+# generate sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
