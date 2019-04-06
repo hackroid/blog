@@ -102,3 +102,10 @@ offline:
       handler: cacheFirst
       options:
         origin: https://blog.hackroid.com # can be replaced with your url
+
+# generate sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
