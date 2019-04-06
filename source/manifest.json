@@ -1,8 +1,8 @@
 {
     "name": "Hackroid's Blog",
     "short_name": "Hackroid",
-    "theme_color": "##69b208",
-    "background_color": "##69b208",
+    "theme_color": "#69b208",
+    "background_color": "#69b208",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
