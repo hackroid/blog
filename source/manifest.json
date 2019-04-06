@@ -1,0 +1,22 @@
+{
+    "name": "Hackroid's Blog",
+    "short_name": "Hackroid",
+    "theme_color": "##69b208",
+    "background_color": "##69b208",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "images/pwaicons/192_favicon_trans.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/pwaicons/384_favicon_trans.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "splash_pages": null
+}
