@@ -96,12 +96,12 @@ fireworks: true
 
 # Analysis
 # ---------------
-baidu_analytics:
+baidu_analytics: ac01a5123c353a646c9d8717d2254afb
 
-google_analytics:
+google_analytics: UA-94097389-1
 
 # Tencent_analytics ID
-tencent_analytics:
+tencent_analytics: 66385937
 
 # stylesheets loaded in the <head>
 # ---------------
