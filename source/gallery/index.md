@@ -9,3 +9,5 @@ type: "gallery"
 {% gallery https://i.loli.net/2018/07/05/5b3de7f33e49c.gif osakacity1 %}
 {% gallery https://i.loli.net/2018/07/05/5b3de7f0aaf13.jpg osakacity2 %}
 {% gallery https://i.loli.net/2018/07/05/5b3de7f603319.jpg chabuton %}
+{% gallery https://i.loli.net/2019/04/21/5cbc1a6e47f1a.png hackroid1 %}
+
