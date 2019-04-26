@@ -19,10 +19,11 @@ menu:
   Archives: /archives
   Tags: /tags
   #Categories: /categories
+  Resume: /resume/cv_screen.pdf
+  GitHub: https://github.com/hackroid/blog
+  Status: https://status.hackroid.com
   アニメ: /アニメ
   Gallery: /gallery
-  Status: https://status.hackroid.com
-  GitHub: https://github.com/hackroid/blog
 
 # Favicon
 # ---------------
