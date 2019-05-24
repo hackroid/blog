@@ -139,7 +139,8 @@ cdn:
 # ---------------
 avatar: https://i.loli.net/2019/04/05/5ca72d9fdb4ec.png
 
-top_img: https://i.loli.net/2019/04/05/5ca72d36af6f1.jpg # false or url of img
+top_img: false # false or url of img
+# https://i.loli.net/2019/04/05/5ca72d36af6f1.jpg
 
 post_meta:
   date_type: created # created or updated
