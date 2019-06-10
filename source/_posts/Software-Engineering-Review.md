@@ -43,23 +43,23 @@ IEEE 610: “The application of a **systematic** 系统的, **disciplined** 有�
 
 1. SVN：Apache Subversion
 
-   | 命令                                                         |
-| ------------------------------------------------------------ |
-   | svn checkout <address_to_remote> <name_of_local_dir>         |
-| git checkout <branch_name>                                   |
-   | svn commit –m “msg”                                          |
-   | git commit –m “msg” (git commit 召唤出 vim 编辑器可以更有条理的写 commit) |
-   | svn up                                                       |
-   | git pull upstream master                                     |
-   | svn add <file_name>                                          |
-   | git add <file_name>                                          |
-   | **Other command**                                            |
-   | **svn st:** shows the status of files in the current svn directory |
-   | **svn rm:** removes a file from the set of tracked files (will be removed on  the remote server as well) |
-   | **svn mv:** moves a file from one directory to another (or renames if in same directory) |
-   | **svn diff:** diff between two revisions, or diff a file to see uncommitted local changes. (**git diff**) |
-   | **svn status**: shows you the status of the files in the directory subtree you are in (and not the entire repo). (**git status**) |
-   
+| 命令  |
+| ------- |
+| svn checkout \<address_to_remote\> \<name_of_local_dir\> |
+| git checkout \<branch_name\> |
+| svn commit –m “msg”  |
+| git commit –m “msg” (git commit 召唤出 vim 编辑器可以更有条理的写 commit) |
+| svn up |
+| git pull upstream master |
+| svn add \<file_name\> |
+| git add \<file_name\> |
+| **Other command** |
+| **svn st:** shows the status of files in the current svn directory |
+| **svn rm:** removes a file from the set of tracked files (will be removed on  the remote server as well) |
+| **svn mv:** moves a file from one directory to another (or renames if in same directory) |
+| **svn diff:** diff between two revisions, or diff a file to see uncommitted local changes. (**git diff**) |
+| **svn status**: shows you the status of the files in the directory subtree you are in (and not the entire repo). (**git status**) |
+
 2. **Git uses a distributed model**
 
    ![git](https://i.loli.net/2019/06/10/5cfde20609aee19707.png)
