@@ -1218,7 +1218,7 @@ Instability = Ce / (Ca + Ce)
 
 #### Patterns For Detailed model capture
 
-![read_code2](/Users/hackroid/Google Drive/A_SUSTC/2018-2019_2nd/CS304(SE)/lecture/rev/https://i.loli.net/2019/06/10/5cfde254693ed45397.png)
+![read_code2](https://i.loli.net/2019/06/10/5cfde254693ed45397.png)
 
 ### What is testing? 
 
