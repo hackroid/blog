@@ -408,7 +408,7 @@ public class AllTests {
 State Testing Patterns
 
 * Final State Assertion: 最终结果断言
-* Guard Assertion: 同时 ```@Before``` 和 ```@After``` 断言
+* Guard Assertion: 同时 `@Before` 和 `@After` 断言
 * Delta Assertion: 验证一个与 State 相关的变化
 * Custom Assertion: 自定义
 
@@ -432,7 +432,7 @@ public class ParamTest {
 
 对于测试相似的变量的时候，避免代码臃肿
 
-对于上面代码块所示，不用写若干个独立测试，而使用 ```@Parameters``` 声明一个测试集
+对于上面代码块所示，不用写若干个独立测试，而使用 `@Parameters` 声明一个测试集
 
 ##### JUNIT THEORIES
 
@@ -474,7 +474,7 @@ public class SetTheoryTest {
 * Action Performs Activity Under Scrutiny
 * Assertions (Postconditions) Check Result
 
-```@Theory``` 绑定 ```@DataPoint``` 以达到从外部传参的目的
+`@Theory` 绑定 `@DataPoint` 以达到从外部传参的目的
 
 #### Test Driven Development (TDD)
 
