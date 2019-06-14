@@ -2,6 +2,8 @@
 title: 'UCB:CS189 | 简记'
 date: 2019-05-16 12:57:46
 tags: [study, ml]
+categories: 
+- Research
 ---
 
 [Slide](https://csinva.github.io/pres/189/#/) 及主页的 resource
