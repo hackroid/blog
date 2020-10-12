@@ -108,7 +108,7 @@ baidu_analytics: ac01a5123c353a646c9d8717d2254afb
 google_analytics: UA-94097389-1
 
 # Tencent_analytics ID
-tencent_analytics: 66385937
+tencent_analytics: 500731279
 
 # stylesheets loaded in the <head>
 # ---------------
@@ -313,9 +313,9 @@ sidebar_display: all # all/index/post/index-none/post-none/hidden
 # ---------------
 # Google Adsense
 google_adsense:
-  enable: false
+  enable: true
   js: //pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-...........
+  client: 2338576394365685
   enable_page_level_ads: true
 
 # Google Webmaster tools verification setting
@@ -342,4 +342,4 @@ qihu_site_verification:
 disable_baidu_transformation: true
 
 # 404 Page SubTitle
-404Text: 页面已经出事儿了，谢谢大家🙏
+404Text: 该页面已经出事儿了，谢谢大家🙏
