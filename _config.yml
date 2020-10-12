@@ -107,6 +107,12 @@ theme: melody
 deploy:
   type: ''
 
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+
 # offline config passed to sw-precache.
 offline:
   maximumFileSizeToCacheInBytes: 10485760 # The maximum file size cached, in bytes
@@ -114,3 +120,63 @@ offline:
     - public/**/*.{js,html,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2}
   stripPrefix: public
   verbose: true
+
+# generate sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# katex
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-emoji
+        enable: true
+    - plugin:
+        name: markdown-it-sub
+        enable: true
+    - plugin:
+        name: markdown-it-sup
+        enable: true
+    - plugin:
+        name: markdown-it-deflist
+        enable: true
+    - plugin:
+        name: markdown-it-abbr
+        enable: true
+    - plugin:
+        name: markdown-it-footnote
+        enable: true
+    - plugin:
+        name: markdown-it-ins
+        enable: true
+    - plugin:
+        name: markdown-it-mark
+        enable: true
+    - plugin:
+        name: markdown-it-katex
+        enable: false
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+
+# generate rss
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
+  content: true
+  content_limit:
+  content_limit_delim:
+  order_by: -date
+  icon: images/pwaicons/384_favicon_trans.png
