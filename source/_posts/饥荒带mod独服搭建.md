@@ -34,7 +34,7 @@ Download and install steamcmd by following the instructions here: https://develo
 
 A shortened version of the necessary commands:
 
-```
+```shell
 mkdir -p ~/steamcmd/
 cd ~/steamcmd/
 wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
@@ -99,7 +99,7 @@ mod 的配置极为繁琐，包括 mod setup 与每个 mod 中的详细参数设
 
 macOS 系统中饥荒本地数据存档的存放点是 `~/Documents/Klei/DoNotStarveTogether` ，下面给出文件树，用 `...` 省略了非重点文件和目录。
 
-```
+```shell
 DoNotStarveTogether
 ├── 317961492
 │   ├── Cluster_2
