@@ -114,12 +114,12 @@ search:
   content: true
 
 # offline config passed to sw-precache.
-offline:
-  maximumFileSizeToCacheInBytes: 10485760 # The maximum file size cached, in bytes
-  staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2}
-  stripPrefix: public
-  verbose: true
+# offline:
+#  maximumFileSizeToCacheInBytes: 10485760 # The maximum file size cached, in bytes
+#  staticFileGlobs:
+#    - public/**/*.{js,html,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2}
+#  stripPrefix: public
+#  verbose: true
 
 # generate sitemap
 sitemap:
